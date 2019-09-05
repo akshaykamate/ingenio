@@ -1,0 +1,81 @@
+// row spacing
+$row-spacing: 50px;
+// default spacing 
+$spacing0: 0rem;
+$spacing1: .25rem;
+$spacing2: .5rem;
+$spacing3: 1rem;
+$spacing4: 1.5rem;
+$spacing5: 3rem;
+// color 
+$background-white: #FFF;
+$background-btn-primary:#0F0;
+$background-btn-secondary: #EEE;
+$background-table-header: #f8f9fa;
+$color-secondary :#6c757d;
+$color-danger: #F00;
+
+
+.heading {
+    padding: $spacing2 $spacing0 !important;
+}
+.row-spacing {
+    min-height: $row-spacing
+}
+.table-heading {
+    padding: $spacing2 $spacing0 !important;
+    align-items: center!important;
+    background-color: $background-table-header!important;
+}
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media (min-width: 576px){
+.img-round {
+    padding: $spacing1 $spacing4!important;
+}
+}
+.border-bottom{
+    border-bottom: 1px solid
+}
+.img-round {
+    padding: $spacing1 !important;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%!important
+}
+
+.text-right{
+    text-align: right
+}
+a {
+    color: $color-secondary!important;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline
+    }
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: $background-white!important;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: $spacing2;
+}
+.btn-success{
+background: $background-btn-primary;
+}
+.btn-secondary{
+    background: $background-btn-secondary;
+}
+.text-danger {
+    color: $color-danger;
+}

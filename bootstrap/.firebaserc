@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ingenio-bootstrap": {
+      "hosting": {
+        "bootstrap": [
+          "ingenio-bootstrap"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ingenio-bootstrap"
+  }
+}
